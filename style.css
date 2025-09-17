@@ -4,8 +4,63 @@
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    background-image:url("background.jpg");
+    
+}
+.main{
+    margin-top: 30px;
+    background-color: black;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
 }
 #main_heading{
     text-align: center;
-    margin-top: 20px;;
+    margin-top: 20px;
+    color:white;
+}
+#container2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    color:white;
+    
+}
+#container3{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    color:white;
+}
+#container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+    color:white;
+}
+
+#container4 input {
+    padding: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    margin-top: 20px;
+    width: 100%;
+}
+
+.button-group button {
+    padding: 8px 16px;
+    cursor: pointer;
 }
