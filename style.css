@@ -10,6 +10,7 @@ body {
   min-height: 100vh;
   background-color: #f4e4ba;
   background-image: url(background.jpg);
+  
 }
 
 .container {
@@ -19,6 +20,7 @@ body {
   border-radius: 1rem;
   min-height: 45vh;
   width: 45vh;
+
 }
 .container h3 {
     text-align: center;
@@ -38,10 +40,12 @@ input {
 }
 
 form input {
+  margin-top: 10px;
   border: 1px solid lightgray;
   font-size: 1rem;
   height: 3rem;
   padding-left: 0.5rem;
+
 }
 
 .dropdown {
